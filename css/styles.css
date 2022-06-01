@@ -279,6 +279,42 @@ nav {
   text-align: center;
 }
 
+/* ------------------Client--------------------------------- */
+
+.client {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.client-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.client-list {
+  display: flex;
+  justify-content: center;
+}
+.client-item {
+  width: 170px;
+  height: 92px;
+}
+.client-item:not(:last-child) {
+  margin-right: 30px;
+}
+.client-link {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #afb1b8;
+  justify-content: center;
+  display: flex;
+  Fill: Solid #AFB1B8;
+}
+.client-icon {
+  fill: currentColor;
+}
 /* ----------------------------Work--------------------------------------- */
 
 .main {
