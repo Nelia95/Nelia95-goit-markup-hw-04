@@ -123,7 +123,8 @@ nav {
   width: 16px;
   margin-right: 10px;
 }
-.contact-item {
+.contact-icon:hover {
+  fill: var(--accent-color);
 }
 
 .contact-item:not(:last-child) {
@@ -210,6 +211,13 @@ nav {
 .feature-item:not(:last-child) {
   margin-right: 30px;
 }
+.feature-icon {
+  border-radius: 4px;
+  background-color: #f5f4fa;
+  width: 100%;
+  height: 120px;
+  margin-bottom: 30px;
+}
 
 .feature-name {
   color: var(--title-text-color);
@@ -230,7 +238,7 @@ nav {
 .section {
   background-color: var(--primary-bg-color);
   padding-top: 47px;
-  padding-bottom: 47px;
+  padding-bottom: 94px;
 }
 .section-title {
   color: var(--title-text-color);
@@ -491,7 +499,40 @@ nav {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-bg-color);
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
 }
 .ft {
   display: flex;
+}
+.footer-container {
+  margin-right: 70px;
+}
+.form-list {
+  display: flex;
+  justify-content: center;
+}
+.form-item {
+  width: 44px;
+  height: 44px;
+  margin-right: 10px;
+}
+.form-item:last-child {
+  margin-right: 0;
+}
+
+.form-link {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: #ffffff;
+}
+.form-link:hover,
+.form-link:focus {
+  background-color: #2196f3;
 }
