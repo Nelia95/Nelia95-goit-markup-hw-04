@@ -115,6 +115,15 @@ nav {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  width: 100%;
+  height: 100%;
+}
+.contact-icon {
+  fill: #757575;
+  width: 16px;
+  margin-right: 10px;
+}
+.contact-item {
 }
 
 .contact-item:not(:last-child) {
@@ -350,12 +359,20 @@ nav {
   height: 100%;
   justify-content: center;
   display: flex;
-  fill: Solid #afb1b8;
+  fill: solid #afb1b8;
   border: 1px solid #afb1b8;
   align-items: center;
 }
+.client-link:hover,
+.client-link:focus {
+  border: 1px solid #2196f3;
+}
 .client-icon {
   fill: #afb1b8;
+}
+.client-icon:hover,
+.client-icon:focus {
+  fill: #2196f3;
 }
 /* ----------------------------Work--------------------------------------- */
 
