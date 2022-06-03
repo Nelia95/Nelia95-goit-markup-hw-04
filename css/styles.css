@@ -449,6 +449,7 @@ nav {
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
+  display: flex;
 }
 .footer-logo {
   display: block;
@@ -477,4 +478,20 @@ nav {
 }
 .footer-item:not(:last-child) {
   margin-bottom: 9px;
+}
+.form {
+  outline: 1px, solid, white;
+}
+.form-title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-bg-color);
+}
+.ft {
+  display: flex;
 }
