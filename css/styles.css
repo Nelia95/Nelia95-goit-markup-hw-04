@@ -123,7 +123,8 @@ nav {
   width: 16px;
   margin-right: 10px;
 }
-.contact-icon:hover {
+.contact-icon:hover,
+.contact-icon:focus {
   fill: var(--accent-color);
 }
 
@@ -211,12 +212,20 @@ nav {
 .feature-item:not(:last-child) {
   margin-right: 30px;
 }
+.feature-container {
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .feature-icon {
   border-radius: 4px;
   background-color: #f5f4fa;
-  width: 100%;
-  height: 120px;
-  margin-bottom: 30px;
+  width: 70px;
+  height: 70px;
 }
 
 .feature-name {
@@ -367,13 +376,15 @@ nav {
   height: 100%;
   justify-content: center;
   display: flex;
-  fill: solid #afb1b8;
+  fill: #afb1b8;
   border: 1px solid #afb1b8;
   align-items: center;
+  border-radius: 4px;
 }
 .client-link:hover,
 .client-link:focus {
-  border: 1px solid #2196f3;
+  fill: #2196f3;
+  border: 1px solid rgba(33, 150, 243, 1);
 }
 .client-icon {
   fill: #afb1b8;
@@ -414,7 +425,6 @@ nav {
   margin-bottom: 30px;
 }
 .work-item:hover {
-  border: 1px solid #eeeeee;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
