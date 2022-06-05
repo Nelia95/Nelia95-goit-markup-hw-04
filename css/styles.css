@@ -386,6 +386,7 @@ nav {
 .client-link:focus {
   color: #2196f3;
   border: 1px solid rgba(33, 150, 243, 1);
+  outline: transparent;
 }
 .client-icon {
   fill: currentColor;
